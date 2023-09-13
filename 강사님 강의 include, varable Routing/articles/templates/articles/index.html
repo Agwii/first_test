@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>여기가 INDEX!</h1>
+    <a href=" {% url 'articles:catch' '이귀현' 100 %}">누르면 이동한다잇</a>
+</div>
+{% endblock content %}
+
